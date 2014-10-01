@@ -1,0 +1,9 @@
+Requires openssl library
+
+Run:
+
+make
+./run
+
+For each scheme, a file named res_<scheme name>.dat is produced, which contains the timing results. Each line of the file contains (separated by whitespace) the modulus size (bits), the average time to encrypt, the maximum time to encrypt, the minimum time to encrypt and the standard deviation. See the paper "Anonymous IBE from Quadratic Residuosity with Improved Performance" (Africacrypt 2014) for more info.
+
